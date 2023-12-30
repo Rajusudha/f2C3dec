@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <input type="text" placeholder="Search for recipes" id="searchBar">
+      <div>
+        <button id="showAll">Show All</button>
+        <button id="showVeg">Veg Recipes Only</button>
+        <button id="shownonVeg">Non Veg Recipes</button>
+      </div>
+      <div>
+        <label for="ratingabove">4 and above</label>
+        <input type="radio" id="ratingabove" name="ratingFilter" >
+        <label for="ratingbelow ">Below 4</label>
+        <input type="radio" id="ratingbelow" name="ratingFilter">
+      </div>
+      <div id="recipeContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
